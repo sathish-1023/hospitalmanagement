@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Code Haters || Sathish</title>
+
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+  {%block content%}
+ <h1>Transaction SucessFull</h1>
+ <br></br>
+<a style="background-color:green" href="{% url download-pdf  patientId %}">download </a>
+</br>
+  {%endblock content%}
+  {% include "hospital/footer.html" %}
+</body>
+
+
+</html>
